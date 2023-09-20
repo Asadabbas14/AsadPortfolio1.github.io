@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:ital,wght@0,500;1,200&family=Ubuntu&family=Varela+Round&display=swap"
+    rel="stylesheet">
+
+
+</head>
+<body>
+        <nav class="navbar">
+            <div class="logo">Asad Portfolio</div>
+               <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="intro">
+                <div>Hi Asad here</div> 
+                    <div>and i am a</div>
+                <span id="element"></span>
+            </div>
+            <hr>
+            <h3>Click here to see my Project</h3>
+            <a href="https://asadabbas14.github.io/Qalandar.github.io/" class="button" target="_blank">Project</a>
+            <a href="https://asadabbas14.github.io/Asadportfolio.github.io/" class="button" target="_blank">Project 2</a>
+        </div>
+        <div class="left">
+            <!-- <img src="developer2.png" alt=""> -->
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web developer.', 'Web Designer.', 'Product Researcher .'],
+                typeSpeed: 50,
+            });
+        </script>
+    </body>
+</html>

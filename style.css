@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg12.jpeg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li{
+    padding: 12px 24px;
+    margin: 5px 11px;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    position: absolute;
+    left: 15px;
+    top: 11px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    font-size: 22px;
+}
+
+.container{
+    position: absolute;
+    height: 55vh;
+    width: 25vw;
+    text-align: center;
+    margin: 155px 77px;
+}
+
+.container h3{
+    margin: 35px 2px;
+    font-size: 28px;
+}
+
+.intro div{
+    font-size: 50px;
+    font-weight: bold;
+}
+.left img{
+    height: 42vh;
+    width: 21%;
+    margin-left: 67%;
+    margin-top: 24vh;
+}
+
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 2px solid rgb(92, 162, 255);
+    border-radius: 17px;
+    background-color: black;
+    height: 28px;
+    padding: 4px 12px;
+}
+
+#element{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
